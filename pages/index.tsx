@@ -4,7 +4,7 @@ import Quiz from "../components/Quiz";
 import QuestionModel from "../model/question";
 import { useRouter } from "next/router";
 
-const BASE_URL = "http://localhost:3000/api";
+const BASE_URL = "https://quiz-next-js-seven.vercel.app/api";
 
 export default function Home() {
 	const [questionsIds, setQuestionsIds] = useState<number[]>([]);
